@@ -82,15 +82,15 @@ Grad-CAM was used to analyze which regions the model attended to when predicting
 
 | Sample | Visualization |
 |---|---|
-| Example 1 | ![](assets/gradcam_good_1.png) |
-| Example 2 | ![](assets/gradcam_good_2.png) |
+| Example 1 | ![](assets/good_1.png) |
+| Example 2 | ![](assets/good_2.png) |
 
 ### Poorly-predicted samples
 
 | Sample | Visualization |
 |---|---|
-| Example 1 | ![](assets/gradcam_bad_1.png) |
-| Example 2 | ![](assets/gradcam_bad_2.png) |
+| Example 1 | ![](assets/bad_1.png) |
+| Example 2 | ![](assets/bad_2.png) |
 
 These examples were included to compare where the model focused when the prediction was relatively accurate versus when the prediction error was larger.
 

@@ -20,6 +20,16 @@ Total:
 
 In this project, the split was performed using sample IDs, so the two images of the same mango were always assigned to the same fold.
 
+## Dataset Attribution
+
+This project uses the **Alphonso Mangoes Image Dataset** published on Mendeley Data.
+
+- Dataset: Alphonso Mangoes Image Dataset
+- DOI: 10.17632/8sjny373pz.1
+- License: CC BY 4.0
+
+The Grad-CAM figures included in this repository are derived from the original dataset images and were modified for visualization purposes.
+
 # Project Goal
 
 The goal of this project was not only to train a CNN model, but also to compare different approaches for a small image regression dataset.
@@ -92,8 +102,12 @@ mango-weight-estimation/
 ├── train.py
 ├── gradcam_utils.py
 ├── checkpoints/
-├── head_only_results.csv
-├── full_finetune_results.csv
+├── assets/
+│   ├── gradcam_good_1.png
+│   ├── gradcam_good_2.png
+│   ├── gradcam_bad_1.png
+│   └── gradcam_bad_2.png
+├── .gitignore
 └── README.md
 # How to Run
 Baseline

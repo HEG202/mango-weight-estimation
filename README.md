@@ -117,6 +117,12 @@ mango-weight-estimation/
 ├── train.py
 ├── gradcam_utils.py
 ├── checkpoints/
+├── outputs/
+│   ├── fold5_val_predictions.csv
+│   ├── full_finetune_history.csv
+│   ├── full_finetune_results.csv
+│   ├── head_only_history.csv
+│   └── head_only_results.csv
 ├── assets/
 │   ├── gradcam_good_1.png
 │   ├── gradcam_good_2.png
@@ -125,6 +131,9 @@ mango-weight-estimation/
 ├── .gitignore
 └── README.md
 ```
+
+> **Note:** Trained model checkpoint files (`.pth`) are not included in this repository due to file size limits.
+
 ## How to Run
 
 ### Baseline

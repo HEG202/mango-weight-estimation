@@ -1,0 +1,6 @@
+fold,training_mode,val_mae,val_rmse,val_r2,save_path
+1,head_only,159.18791,161.9773,-29.593105430156292,checkpoints\best_head_only_fold1.pth
+2,head_only,127.96625,132.02112,-16.35837153690021,checkpoints\best_head_only_fold2.pth
+3,head_only,143.41045,145.90051,-25.216126469428836,checkpoints\best_head_only_fold3.pth
+4,head_only,140.99706,145.86751,-13.63550044777354,checkpoints\best_head_only_fold4.pth
+5,head_only,136.09755,137.54558,-34.85563221195431,checkpoints\best_head_only_fold5.pth

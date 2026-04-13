@@ -1,0 +1,6 @@
+fold,training_mode,val_mae,val_rmse,val_r2,save_path
+1,full_finetune,21.24404278653388,25.918733609427992,0.21667356385774628,checkpoints\best_full_finetune_fold1.pth
+2,full_finetune,25.014023512570816,30.34247153068556,0.08309560045919284,checkpoints\best_full_finetune_fold2.pth
+3,full_finetune,21.979076128636233,26.225786872128865,0.1529443659039087,checkpoints\best_full_finetune_fold3.pth
+4,full_finetune,35.439738366657174,38.862646356974146,-0.03885559690833795,checkpoints\best_full_finetune_fold4.pth
+5,full_finetune,13.912275988972073,18.132392982592197,0.37687612303219165,checkpoints\best_full_finetune_fold5.pth
